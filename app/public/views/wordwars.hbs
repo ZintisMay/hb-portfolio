@@ -1,0 +1,27 @@
+<div class="row">
+	<div class="col col-lg-4 leftBar">
+		<h1 class="Three-Dee">{{{title}}}</h1>
+		<div class="presentationText jumbotron">
+		<p class="ptext">{{paragraph}}</p>
+		</div>
+
+		<h4 >My Team:</h4>
+		{{#each person}}
+		<div class="ppldiv col col-sm-4"><img class="pplpic" src="{{image}}"/>
+		<p>{{name}}</p></div>
+		{{/each}}
+
+	</div>
+
+	<div class="col col-lg-8">
+
+		<div class="bigImage">
+			<a href="{{url}}" target="_blank">
+				<img src="{{imgsrc}}" class="presentation" data-href="{{url}}" >
+			</a>
+		</div>
+		
+		
+	</div>
+
+</div>

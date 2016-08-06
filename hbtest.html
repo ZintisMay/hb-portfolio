@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script src="./handlebars-v4.0.5.js"></script>
+
+	<div id="here"></div>
+
+
+	<script id="qt-temp" type="text/x-handlebars-template">
+
+		<h3>Favorite {{name}} Quotes</h3>
+		<ol>
+		{{#each quotes}}
+		<li>{{quote}}
+		{{/each}}
+		</ol>
+		
+	</script>
+
+	<script type="text/javascript">
+		
+		var quoteInfo = document.getElementById('qt-temp').innerHTML;
+
+		var template = Handlebars.compile(quoteInfo);
+
+		var quoteData = template({
+			name: "yogi",
+			quotes: [
+				{quote: "bob"},
+				{quote: "was"},
+				{quote: "here"}
+			]
+		});
+
+		document.getElementById("here").innerHTML += quoteData;
+
+	</script>
+
+</body>
+</html>
+

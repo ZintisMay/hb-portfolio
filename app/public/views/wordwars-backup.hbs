@@ -1,0 +1,64 @@
+<div class="row">
+	<div class="col col-lg-4 leftBar">
+		<h1 class="Three-Dee">Word Wars!</h1>
+		<div class="presentationText">
+		<p class="ptext">Is a typing game created by our small team of web developers. It features a library of words from the Wordnik API, high scores stored in MySql, fun graphic and sound design. We used Firebase for user authentication, dynamic room creation, a chat service, and multiplayer interaction. We are very proud of our product created in just a few weeks, and intend to continue working on it by adding features in the future.</p>
+		</div>
+
+		<h4 >My Team:</h4>
+		
+		<div class="ppldiv col col-sm-4"><img class="pplpic" src="static/images/Lou.png"/>
+		<p>Louis Delia</p></div>
+		<div class="ppldiv col col-sm-4"><img class="pplpic" src="static/images/Matt.png"/>
+		<p>Matthew Martin</p></div>
+		<div class="ppldiv col col-sm-4"><img class="pplpic" src="static/images/Ana.png"/>
+		<p>Analben<br>Manakiwala</p></div>
+
+	</div>
+
+	<div class="col col-lg-8">
+
+		<div class="bigImage">
+			<a href="http://wordwarsapp.herokuapp.com" target="_blank">
+				<img src="static/images/wordwars.png" class="presentation" data-href="http://wordwarsapp.herokuapp.com" >
+			</a>
+		</div>
+		
+		
+	</div>
+
+</div>
+
+	<script src="./handlebars-v4.0.5.js"></script>
+
+	<div id="here"></div>
+
+	<script id="qt-temp" type="text/x-handlebars-template">
+
+		<h3>Favorite {{name}} Quotes</h3>
+		<ol>
+		{{#each quotes}}
+		<li>{{quote}}
+		{{/each}}
+		</ol>
+
+	</script>
+
+	<script type="text/javascript">
+		
+		var quoteInfo = document.getElementById('qt-temp').innerHTML;
+
+		var template = Handlebars.compile(quoteInfo);
+
+		var quoteData = template({
+			name: "yogi",
+			quotes: [
+				{quote: "bob"},
+				{quote: "was"},
+				{quote: "here"}
+			]
+		});
+
+		document.getElementById("here").innerHTML += quoteData;
+
+	</script>
