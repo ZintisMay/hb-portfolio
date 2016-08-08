@@ -1,6 +1,7 @@
 <div class="row">
 	<div class="col col-lg-4 leftBar" >
 		<h1 class="Three-Dee">{{{title}}}</h1>
+
 		<div class="presentationText">
 		<p class="ptext">{{paragraph}}</p>
 		</div>
@@ -8,10 +9,18 @@
 		<h2 style="text-align:left; text-indent:25px;"><b>My Team:</b></h2>
 		<div class="row">
 			{{#each person}}
-			<a href="{{url}}" style="">
-				<div class="ppldiv col col-sm-4"><img class="pplpic" src="{{image}}"/>
-			</a>
-			<p>{{name}}</p></div>
+
+			<div class="ppldiv col col-sm-4">
+
+				<a href="{{url}}" style="">
+
+					<img class="pplpic" src="{{image}}"/>
+					
+				</a>
+
+				<p>{{name}}</p>
+
+			</div>
 			
 			{{/each}}
 		</div>
