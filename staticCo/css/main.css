@@ -64,12 +64,6 @@ a{
 	color:black;
 }
 
-body {
-	/*background-color:#8cd9d9;*/
-
-/*	background-color:#ccffff;*/
-}
-
 .items {
 	margin-bottom: 20px;
 }
@@ -140,6 +134,7 @@ body
     bottom:60px;
     left:0px;
     right:0px;
+    background-color: #e6ffff;
 }
 
 @media screen and (max-width: 1250px) {
