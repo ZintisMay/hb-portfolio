@@ -36,6 +36,11 @@ module.exports = function(app){
 	app.get('/hangman', function(req, res){
 		res.render('noteam', experiment[4]);
 	});
+	app.get('/resume', function(req, res){
+		res.render('resume', experiment[4]);
+	});
+
+
 
 
 	app.get('/', function(req, res){
