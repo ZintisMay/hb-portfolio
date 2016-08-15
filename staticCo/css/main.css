@@ -137,7 +137,8 @@ body
     bottom:60px;
     left:0px;
     right:0px;
-    background-color: #e6ffff;
+    background-color: #002966;
+    /*background-color: #e6ffff;*/
     overflow:scroll;
 }
 
@@ -179,7 +180,7 @@ body
 font-family: georgia ;
 line-height: 1em;
 /*color: #4da9ff;*/
-color: black;
+/*color: black;*/
 
 padding-bottom:8px;
 text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
@@ -204,3 +205,9 @@ li > a:hover {
 	text-decoration:none !important;
 }
 
+a, h1, h2, h3, h4, h5, h6{color:#4da9ff;
+}
+
+p{
+	color:white;
+}
