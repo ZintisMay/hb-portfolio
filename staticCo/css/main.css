@@ -67,6 +67,8 @@ a{
 	color:black;
 }
 
+
+
 .items {
 	margin-bottom: 20px;
 }
@@ -210,4 +212,15 @@ a, h1, h2, h3, h4, h5, h6{color:#4da9ff;
 
 p{
 	color:white;
+}
+
+li>a{padding:5px;}
+
+/*.bump{text-indent:5px;}*/
+
+.dditem{
+
+	font-family:impact;
+	font-size:15px;
+
 }
