@@ -50,7 +50,7 @@ function hbproto(title, paragraph, person, imgsrc, url){
 		"Community<br>Code", 
 		"This application is designed to give beginning programmers a library of functions they can reference, curate, and learn from. We developed this as a way to help our classroom learning as we delved into Rutgers Coding Bootcamp. Many of the students in the class contributed to it, and I found it an easy way to learn useful functions from other students.", 
 		[
-			{image:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAfgAAAAJGVmOGNmOTZlLWVlNjQtNDRiMS1hY2MzLTY0N2FiN2Q3MTM4OQ.jpg", name:"Kevin Graber", url:"https://www.linkedin.com/in/kevin-graber-310?authType=NAME_SEARCH&authToken=bGpb&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A423997440%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1470613273776%2Ctas%3Akevin"},
+			{image:"https://media.licdn.com/media/AAEAAQAAAAAAAAiOAAAAJDc5N2VkNWRlLWM4NWItNGQ5MC1hN2ExLWRlZGVhNTFiM2NjMg.jpg", name:"Kevin Graber", url:"https://www.linkedin.com/in/kevin-graber-310?authType=NAME_SEARCH&authToken=bGpb&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A423997440%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1470613273776%2Ctas%3Akevin"},
 			{image:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiuAAAAJDVlMjgxZjE4LTNmOTItNDI2ZS1iZDE3LTQxYjM4ZmZkYmJiZA.jpg",name:"Mauricio Ramos", url:"https://www.linkedin.com/in/maramos1126?authType=NAME_SEARCH&authToken=xByp&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A163957937%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1470613259426%2Ctas%3Amau"}
 		], 
 		"static/images/ccode.png",
