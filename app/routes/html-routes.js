@@ -5,6 +5,7 @@ var path = require('path');
 var app = express();
 
 var experiment = require('./hb-html-page-objects.js')
+var game = require('./hb-html-game-objects.js')
 
 console.log(experiment);
 
@@ -24,6 +25,8 @@ module.exports = function(app){
 		res.render('about');
 	});
 
+
+	// apps
 	app.get('/wordwars', function(req, res){
 		res.render('team', experiment[1]);
 	});
@@ -35,7 +38,26 @@ module.exports = function(app){
 	});
 	app.get('/hangman', function(req, res){
 		res.render('noteam', experiment[4]);
+	});	
+	app.get('/your-love-life', function(req, res){
+		res.render('noteam', experiment[5]);
 	});
+
+
+	//games
+	app.get('/wgal', function(req, res){
+		res.render('game', game[0]);
+	});	
+
+	app.get('/huts', function(req, res){
+		res.render('game', game[1]);
+	});
+
+	app.get('/cp', function(req, res){
+		res.render('game', game[2]);
+	});
+
+	//basics
 	app.get('/resume', function(req, res){
 		res.render('resume', experiment[4]);
 	});
@@ -45,6 +67,7 @@ module.exports = function(app){
 		res.render('LLshell');
 	});
 
+	//backups
 	app.get('/', function(req, res){
 		res.render('home');
 	});

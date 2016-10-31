@@ -1,0 +1,57 @@
+<div class="row">
+	<div class="col col-lg-4 leftBar" >
+
+		<img class="iconSize" src="{{icon}}"></img>
+		{{!-- <h2 class="Three-Dee">{{{title}}}</h2> --}}
+		<div class="description">
+		{{#each description}} 
+			<h3> {{name}} </h3>
+		{{/each}}
+		</div>
+				{{!-- //game mechanics --}}
+		<div class="row" style='margin-left:7%'>
+		{{#each mechanics}}
+			<div class="mechanic">
+				{{name}}
+			</div>
+		{{/each}}
+		</div>
+
+		<div style="clear:both;"><br></div>
+
+		<div class="presentationText">
+			<p class="ptext">{{paragraph}}</p>
+		</div>
+
+
+
+	</div>
+
+	<div class="col col-lg-8">
+
+		<div class="bigImage">
+
+			<a href="{{url}}" target="_blank">
+				<span>
+					{{!-- put link in data-href --}}
+					<img src="{{imgsrc}}" class="presentation" style="margin-bottom:px" data-href="">
+{{!-- 						<img src="static/images/click.png" height= "70px"style="
+						position:absolute;
+						bottom:-20px;
+						left:60px;
+						-ms-transform: rotate(45deg); /* IE 9 */
+   						 -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+   						 transform: rotate(45deg);"/> --}}
+					</img>
+				</span>
+				{{!-- <div style="text-align:center;"><b style="font-size:30px;">Click Me!</b></div> --}}
+			</a>
+
+		</div>
+
+		
+		
+	</div>
+
+</div>
+
