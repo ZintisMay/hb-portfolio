@@ -75,7 +75,8 @@ a{
 .presentation{
 	width:90%;
 	height:90%;
-	margin:5%;
+	margin:30px 30px 30px 30px;
+	border-radius: 10px;
 
 }
 .navbar {
@@ -265,3 +266,4 @@ li>a{padding:5px;}
 	margin-left: 7%;
 	margin-right: 7%;
 }
+
