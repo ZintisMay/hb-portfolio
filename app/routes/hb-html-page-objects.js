@@ -67,4 +67,16 @@ function hbproto(title, paragraph, person, imgsrc, url){
 
 	);
 
+
+	experiment[5] = new hbproto(
+
+		"Your Love Life",
+		"In college, my friend Nik made an art-infographic for class by creating circular charts showing the dating histories of her friends and family. Your-love-life is a modern web-based application able to make those very same infographics. Utilizing Angular, d3.js, and mongoDB, this application gives users a colorful look at their love lives.",
+		[{image:"static/images/niko.jpg", name:"Nik Guinta", url:"https://www.linkedin.com/in/nikography"}],
+		"static/images/yll.png",
+		"http://your-love-life.herokuapp.com/"
+
+	);
+
+
 	module.exports = experiment;
