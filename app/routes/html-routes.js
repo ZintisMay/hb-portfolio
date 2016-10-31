@@ -40,12 +40,18 @@ module.exports = function(app){
 		res.render('resume', experiment[4]);
 	});
 
-
-
+	// new route for LLife Test
+	app.get('/LLife', function(req, res){
+		res.render('LLshell');
+	});
 
 	app.get('/', function(req, res){
 		res.render('home');
-	})
+	});
+
+	app.get('/404', function(req, res){
+		res.render('404');
+	});
 	
 
 }
