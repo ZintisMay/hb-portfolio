@@ -57,6 +57,10 @@ module.exports = function(app){
 		res.render('game', game[2]);
 	});
 
+	app.get('/bitog', function(req, res){
+		res.render('game', game[3]);
+	});
+
 	//basics
 	app.get('/resume', function(req, res){
 		res.render('resume', experiment[4]);

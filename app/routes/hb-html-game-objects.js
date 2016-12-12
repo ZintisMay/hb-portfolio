@@ -59,6 +59,22 @@ function hbproto(title, icon, description, mechanics, paragraph, imgsrc){
 
 	);
 
+	game[3] = new hbproto(
+
+		"Belief in the Old Gods",
+
+		"static/images/BITOGtitle.png",
+
+		[{name:"A game about the Old Gods and the cultists who love them."}, {name:"2-5 Players"}, {name:"30 minutes"}],
+
+		[{name: "Hand Management"}, {name: "Secret Scoring"}, {name: "Modular Board"}, {name: "Variable Player Powers"}, {name:"Grid Movement"}],
+
+		"The Old Gods never truly die, they slumber beath the waves and among the stars. Play as one of the eldrich abominations of the universe, twisting the minds of men to your will. The first Old God to awaken from their slumber will harken the end of days!<br>This game is a re-themeing of Huts into the Lovecraft universe!",
+
+		"static/images/BITOG.jpg"
+
+	);
+
 	
 
 	module.exports = game;
