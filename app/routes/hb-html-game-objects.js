@@ -69,7 +69,7 @@ function hbproto(title, icon, description, mechanics, paragraph, imgsrc){
 
 		[{name: "Hand Management"}, {name: "Secret Scoring"}, {name: "Modular Board"}, {name: "Variable Player Powers"}, {name:"Grid Movement"}],
 
-		"The Old Gods never truly die, they slumber beath the waves and among the stars. Play as one of the eldrich abominations of the universe, twisting the minds of men to your will. The first Old God to awaken from their slumber will harken the end of days!<br>This game is a re-themeing of Huts into the Lovecraft universe!",
+		"The Old Gods never truly die, they slumber beath the waves and among the stars. Play as one of the eldrich abominations of the universe, twisting the minds of men to your will. The first Old God to awaken from their slumber will harken the end of days! This game is a re-themeing of Huts into the Lovecraft universe!",
 
 		"static/images/BITOG.jpg"
 
