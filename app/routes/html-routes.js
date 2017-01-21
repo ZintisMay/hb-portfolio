@@ -42,6 +42,9 @@ module.exports = function(app){
 	app.get('/your-love-life', function(req, res){
 		res.render('noteam', experiment[5]);
 	});
+	app.get('/movie-quiz', function(req, res){
+		res.render('noteam', experiment[6]);
+	});
 
 
 	//games
