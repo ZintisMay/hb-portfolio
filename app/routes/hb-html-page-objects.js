@@ -81,7 +81,7 @@ function hbproto(title, paragraph, person, imgsrc, url){
 	experiment[6] = new hbproto(
 
 		"Movie Quiz",
-		"A dynamically generating movie quiz application. Allows the user to look up an actor by name, and then generats 5 questions testing the user's knowledge of the actor's filmography. It uses the OMDB API, angular and node.",
+		"A dynamically created movie quiz application. Allows the user to look up an actor by name, and then generates 5 questions testing the user's knowledge of the actor's filmography. It uses the OMDB API, angular and node.",
 		null,
 		"static/images/movieQuiz.png",
 		"http://ark-app.herokuapp.com/"
